@@ -13,9 +13,9 @@ int main()
             ct++;
     }
 
-    if (ct == l)
-        cout << "YES" << endl;
-    else
+    if (ct > l)
         cout << "NO" << endl;
+    else
+        cout << "YES" << endl;
     return 0;
 }
